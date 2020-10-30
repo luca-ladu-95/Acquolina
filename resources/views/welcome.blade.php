@@ -73,10 +73,6 @@
 
                 @include('menu')
 
-
-
-
-                </ul>
             </div>
 
 
