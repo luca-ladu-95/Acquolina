@@ -18,10 +18,19 @@
                 @forelse($menu as $item)
 
 
+
+                    <form method="POST" action="modifica-menu/{{$item->id}}">
+                        @method('DELETE')
+                        @csrf
+
                         <div class="menu-item">
                             <div class="menu-item-name"> {{$item->name}}</div>
-
+                            <button type="submit" class="btn-danger rounded">Delete</button>
                         </div>
+                        <hr>
+
+                    </form>
+
 
 
 

@@ -17,6 +17,9 @@ class DishController extends Controller
         $menu = Dish::all();
 
 
+
+
+
         return view('welcome',
         [
             'menu'=>$menu
@@ -26,6 +29,8 @@ class DishController extends Controller
 
 
     public function show(){
+
+        $this->authorize('update',auth()->user());
 
         $menu = Dish::all();
 
@@ -40,6 +45,21 @@ class DishController extends Controller
 
 
 
+    public function destroy($id){
+
+        $this->authorize('update',auth()->user());
+
+        Dish::where('id',$id)->delete();
+
+
+        return redirect('/modifica-menu')->with('success', 'Data updated');
+
+
+    }
+
+    public function update(){
+
+    }
 
 
     public function store()

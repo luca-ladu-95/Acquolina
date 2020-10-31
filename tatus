@@ -1,0 +1,23 @@
+[33mcommit d25df279ea1894ef482bb1612ee1ae7fd4f41dd0[m[33m ([m[1;36mHEAD -> [m[1;32mtest-brench[m[33m)[m
+Author: l.ladu3 <vagrant@homestead>
+Date:   Sat Oct 31 15:37:05 2020 +0000
+
+    Admin acces and delete item, todo = deleting sucks
+
+[33mcommit 2b1455b4068045caf1b211a55a42322f04f026ff[m[33m ([m[1;31morigin/test-brench[m[33m)[m
+Author: l.ladu3 <vagrant@homestead>
+Date:   Sat Oct 31 13:15:14 2020 +0000
+
+    test
+
+[33mcommit 6d6dc94010ea83bbbd71ac085e6905b3edaf461f[m[33m ([m[1;32mmaster[m[33m)[m
+Author: l.ladu3 <vagrant@homestead>
+Date:   Sat Oct 31 09:35:14 2020 +0000
+
+    Start to do the admin page, for modify the menu
+
+[33mcommit 291f5023e6939e75357ebf1d0b19f044c92cbfd3[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: l.ladu3 <vagrant@homestead>
+Date:   Fri Oct 30 20:23:14 2020 +0000
+
+    Add menu layout and some backend function

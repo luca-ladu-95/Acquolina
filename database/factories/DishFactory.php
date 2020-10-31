@@ -26,8 +26,8 @@ class DishFactory extends Factory
             'Italian_description' => $this->faker->text(40),
             'English_description' => $this->faker->text(40),
             'German_description'=> $this->faker->text(40),
-            'price'=>$this->faker->numberBetween(10,500),
-            'type'=>$this->faker->numberBetween(0,8)
+            'price'=>$this->faker->numberBetween(100,5000),
+            'type'=>$this->faker->numberBetween(0,15)
         ];
     }
 }

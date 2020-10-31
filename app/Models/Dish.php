@@ -18,7 +18,7 @@ class Dish extends Model
     }
 
     public function setPriceAttribute($value) {
-        $this->attributes['price'] = $value * 10;
+        $this->attributes['price'] = $value * 100;
     }
 
 
