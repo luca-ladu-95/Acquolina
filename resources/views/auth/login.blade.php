@@ -1,11 +1,33 @@
-@extends('layouts.app')
+@extends('app')
+
+<nav class="navbar navbar-default ">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+
+
+
+            <a class="navbar-brand page-scroll" href="#page-top">Acquolina
+            </a>
+        </div>
+
+
+
+    </div>
+</nav>
+
 
 @section('content')
+
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
+
+
+
+
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
@@ -57,11 +79,7 @@
                                     {{ __('Login') }}
                                 </button>
 
-                                @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
-                                    </a>
-                                @endif
+
                             </div>
                         </div>
                     </form>

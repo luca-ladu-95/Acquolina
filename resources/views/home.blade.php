@@ -1,23 +1,52 @@
-@extends('layouts.app')
+@extends('app')
 
-@section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
 
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> <span
+                    class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+            <a class="navbar-brand page-scroll" href="#page-top">Acquolina
+            </a></div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/modifica-menu" class="page-scroll">Modifica menu</a></li>
+                <li><a href="#portfolio" class="page-scroll">Modifica gallery</a></li>
+
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</nav>
+
+<!-- Header -->
+<header id="header">
+    <div class="intro">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="intro-text">
+                        <div class="col-xs-12 col-md-6 ">
+                            <div class="about-img"><img src="img/logo.png" class="img-logo img" alt=""></div>
                         </div>
-                    @endif
-
-                    {{ __('You are logged in!') }}
+                        <p>Amministratore</p>
+                        <a href="#about" class="btn btn-custom btn-lg page-scroll">Log Out</a></div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</header>
+
+@section('content')
+
+    @include('menu')
+
+
 @endsection

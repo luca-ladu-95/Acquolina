@@ -17,11 +17,24 @@ class DishController extends Controller
         $menu = Dish::all();
 
 
-
         return view('welcome',
         [
             'menu'=>$menu
         ]);
+
+    }
+
+
+    public function show(){
+
+        $menu = Dish::all();
+
+
+            return view('edit_menu',
+                [
+                    'menu' => $menu
+                ]);
+
 
     }
 
@@ -57,10 +70,5 @@ class DishController extends Controller
 
 
 
-    public function show(Enum $value){
 
-        if($value!=null){
-            return Dish::where('type',$value)->get();
-        }
-    }
 }

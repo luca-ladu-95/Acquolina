@@ -1,5 +1,4 @@
-<!-- Portfolio Section -->
-<div id="portfolio">
+
     <div class="section-title text-center center">
         <div class="overlay">
             <h2>Gallery</h2>
@@ -13,10 +12,9 @@
                 <ul class="cat">
                     <li>
                         <ol class="type">
-                            <li><a href="#" data-filter="*" class="active">All</a></li>
-                            <li><a href="#" data-filter=".breakfast">Breakfast</a></li>
-                            <li><a href="#" data-filter=".lunch">Lunch</a></li>
-                            <li><a href="#" data-filter=".dinner">Dinner</a></li>
+                            <li><a href="#" data-filter="*" class="active">Tutti</a></li>
+                            <li><a href="#" data-filter=".breakfast">Pizzeria</a></li>
+                            <li><a href="#" data-filter=".lunch">Ristorante</a></li>
                         </ol>
                     </li>
                 </ul>
@@ -160,4 +158,3 @@
             </div>
         </div>
     </div>
-</div>

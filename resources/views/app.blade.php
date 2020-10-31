@@ -7,6 +7,20 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+
+
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+
+
     <!-- Favicons
         ================================================== -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -36,56 +50,11 @@
 </head>
 
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="app">
 
-
-    <nav id="menu" class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-
-
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> <span
-                        class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
-                <a class="navbar-brand page-scroll" href="#page-top">Acquolina
-                </a></div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#about" class="page-scroll">About</a></li>
-                    <li><a href="#restaurant-menu" class="page-scroll">Menu</a></li>
-                    <li><a href="#portfolio" class="page-scroll">Gallery</a></li>
-                    <li><a href="#team" class="page-scroll">Chefs</a></li>
-                    <li><a href="#call-reservation" class="page-scroll">Contact</a></li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-    </nav>
-
-    <!-- Header -->
-    <header id="header">
-        <div class="intro">
-            <div class="overlay">
-                <div class="container">
-                    <div class="row">
-                        <div class="intro-text">
-                            <div class="col-xs-12 col-md-6 ">
-                                <div class="about-img"><img src="img/logo.png" class="img-logo img" alt=""></div>
-                            </div>
-                            <p>Ristorante - Pizzeria</p>
-                            <a href="#about" class="btn btn-custom btn-lg page-scroll">La nostra storia</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-<!-- Navigation
-    ==========================================-->
 @yield('content')
+
+
 </body>
 
 

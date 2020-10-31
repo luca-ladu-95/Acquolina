@@ -8,9 +8,11 @@
             <div class="navbar-header">
 
 
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> <span
+                        class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
                 <a class="navbar-brand page-scroll" href="#page-top">Acquolina
-                </a> </div>
+                </a></div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -33,10 +35,10 @@
                     <div class="row">
                         <div class="intro-text">
                             <div class="col-xs-12 col-md-6 ">
-                                <div class="about-img"><img src="img/logo.png"  class="img-logo img" alt=""></div>
+                                <div class="about-img"><img src="img/logo.png" class="img-logo img" alt=""></div>
                             </div>
                             <p>Ristorante - Pizzeria</p>
-                            <a href="#about" class="btn btn-custom btn-lg page-scroll">La nostra storia</a> </div>
+                            <a href="#about" class="btn btn-custom btn-lg page-scroll">La nostra storia</a></div>
                     </div>
                 </div>
             </div>
@@ -51,9 +53,13 @@
                     <div class="about-text">
                         <h2>Il nostro ristorante</h2>
                         <hr>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare
+                            diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec
+                            ornare diam commodo nibh.</p>
                         <h3>I nostri Chefs</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare
+                            diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec
+                            ornare.</p>
                     </div>
                 </div>
             </div>
@@ -80,143 +86,9 @@
     </div>
     <!-- Portfolio Section -->
     <div id="portfolio">
-        <div class="section-title text-center center">
-            <div class="overlay">
-                <h2>Gallery</h2>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="categories">
-                    <ul class="cat">
-                        <li>
-                            <ol class="type">
-                                <li><a href="#" data-filter="*" class="active">All</a></li>
-                                <li><a href="#" data-filter=".breakfast">Breakfast</a></li>
-                                <li><a href="#" data-filter=".lunch">Lunch</a></li>
-                                <li><a href="#" data-filter=".dinner">Dinner</a></li>
-                            </ol>
-                        </li>
-                    </ul>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="portfolio-items">
-                    <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-                        <div class="portfolio-item">
-                            <div class="hover-bg"> <a href="img/portfolio/01-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-                                    <div class="hover-text">
-                                        <h4>Dish Name</h4>
-                                    </div>
-                                    <img src="img/portfolio/01-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-                        <div class="portfolio-item">
-                            <div class="hover-bg"> <a href="img/portfolio/02-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-                                    <div class="hover-text">
-                                        <h4>Dish Name</h4>
-                                    </div>
-                                    <img src="img/portfolio/02-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-                        <div class="portfolio-item">
-                            <div class="hover-bg"> <a href="img/portfolio/03-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-                                    <div class="hover-text">
-                                        <h4>Dish Name</h4>
-                                    </div>
-                                    <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-                        <div class="portfolio-item">
-                            <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-                                    <div class="hover-text">
-                                        <h4>Dish Name</h4>
-                                    </div>
-                                    <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-                        <div class="portfolio-item">
-                            <div class="hover-bg"> <a href="img/portfolio/05-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-                                    <div class="hover-text">
-                                        <h4>Dish Name</h4>
-                                    </div>
-                                    <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-                        <div class="portfolio-item">
-                            <div class="hover-bg"> <a href="img/portfolio/06-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-                                    <div class="hover-text">
-                                        <h4>Dish Name</h4>
-                                    </div>
-                                    <img src="img/portfolio/06-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-                        <div class="portfolio-item">
-                            <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-                                    <div class="hover-text">
-                                        <h4>Dish Name</h4>
-                                    </div>
-                                    <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-                        <div class="portfolio-item">
-                            <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-                                    <div class="hover-text">
-                                        <h4>Dish Name</h4>
-                                    </div>
-                                    <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-                        <div class="portfolio-item">
-                            <div class="hover-bg"> <a href="img/portfolio/09-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-                                    <div class="hover-text">
-                                        <h4>Dish Name</h4>
-                                    </div>
-                                    <img src="img/portfolio/09-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-                        <div class="portfolio-item">
-                            <div class="hover-bg"> <a href="img/portfolio/10-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-                                    <div class="hover-text">
-                                        <h4>Dish Name</h4>
-                                    </div>
-                                    <img src="img/portfolio/10-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-                        <div class="portfolio-item">
-                            <div class="hover-bg"> <a href="img/portfolio/11-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-                                    <div class="hover-text">
-                                        <h4>Dish Name</h4>
-                                    </div>
-                                    <img src="img/portfolio/11-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-                        <div class="portfolio-item">
-                            <div class="hover-bg"> <a href="img/portfolio/12-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-                                    <div class="hover-text">
-                                        <h4>Dish Name</h4>
-                                    </div>
-                                    <img src="img/portfolio/12-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    @include('gallery')
     </div>
+
     <!-- Team Section -->
     <div id="team" class="text-center">
         <div class="overlay">
@@ -232,7 +104,8 @@
                             <div class="team-img"><img src="img/team/01.jpg" alt="..."></div>
                             <div class="caption">
                                 <h3>Mike Doe</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec
+                                    ornare diam.</p>
                             </div>
                         </div>
                     </div>
@@ -241,7 +114,8 @@
                             <div class="team-img"><img src="img/team/02.jpg" alt="..."></div>
                             <div class="caption">
                                 <h3>Chris Doe</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec
+                                    ornare diam.</p>
                             </div>
                         </div>
                     </div>
@@ -250,7 +124,8 @@
                             <div class="team-img"><img src="img/team/03.jpg" alt="..."></div>
                             <div class="caption">
                                 <h3>Ethan Doe</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec
+                                    ornare diam.</p>
                             </div>
                         </div>
                     </div>
@@ -261,41 +136,18 @@
     <!-- Call Reservation Section -->
     <div id="call-reservation" class="text-center">
         <div class="container">
-            <h2>Want to make a reservation? Call <strong>1-887-654-3210</strong></h2>
+            <h2>Want to make a reservation? Call <strong>999999999</strong></h2>
         </div>
     </div>
     <!-- Contact Section -->
     <div id="contact" class="text-center">
-        <div class="container">
-            <div class="section-title text-center">
-                <h2>Contact Form</h2>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
-            </div>
-            <div class="col-md-10 col-md-offset-1">
-                <form name="sentMessage" id="contactForm" novalidate>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-                        <p class="help-block text-danger"></p>
-                    </div>
-                    <div id="success"></div>
-                    <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
-                </form>
-            </div>
+        <div class="map-responsive">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12238.795054742244!2d9.703215!3d39.925757!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x23ef6725d6344a9a!2sRistorante%20Pizzeria%20Acquolina!5e0!3m2!1sit!2sit!4v1604091234162!5m2!1sit!2sit"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0">
+
+        </iframe>
         </div>
     </div>
     <div id="footer">
@@ -303,8 +155,8 @@
             <div class="col-md-4">
                 <h3>Address</h3>
                 <div class="contact-item">
-                    <p>4321 California St,</p>
-                    <p>San Francisco, CA 12345</p>
+                    <p>08048 Tortolì</p>
+                    <p>Viale Europa, 08048 Tortolì NU</p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -331,7 +183,6 @@
                         <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                     </ul>
                 </div>
-                <p>&copy; 2016 Touché. All rights reserved. Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
             </div>
         </div>
     </div>
