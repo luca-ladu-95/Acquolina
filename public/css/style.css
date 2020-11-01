@@ -86,7 +86,7 @@ ul, ol {
 
 hr {
     height: 2px;
-    width: 70px;
+
     text-align: center;
     position: relative;
     background: #6B3249;
@@ -346,13 +346,21 @@ header .intro-text {
     margin: 20px 0;
     text-align: center;
 }
+#container-edit-menu {
+    padding: 5px;
+}
 
 #restaurant-menu .menu-item {
     margin: 35px 0;
     font-size: 18px;
 }
+.menu-item-name{
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+}
 
-#restaurant-menu .menu-item-name {
+#restaurant-menu  {
     font-weight: 600;
     font-size: 17px;
     color: #555;
@@ -598,6 +606,17 @@ ol.type li a:hover {
 
 #call-reservation hr {
     background: #fff;
+}
+
+.hr-full{
+    height: 2px;
+    /* width: 70px; */
+    text-align: center;
+    position: relative;
+    background: #6B3249;
+    margin: 0;
+    margin-bottom: 40px;
+    border: 0;
 }
 
 #call-reservation h3 {

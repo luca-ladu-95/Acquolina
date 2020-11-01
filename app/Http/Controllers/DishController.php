@@ -47,6 +47,7 @@ class DishController extends Controller
 
     public function destroy($id){
 
+
         $this->authorize('update',auth()->user());
 
         Dish::where('id',$id)->delete();

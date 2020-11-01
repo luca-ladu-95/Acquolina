@@ -1,35 +1,38 @@
 @extends('home')
 
 @section('content')
+    <br>
 
-    <div>
+    <<div class="section-title text-center center">
 
+            <h2>Modifica Menu</h2>
     </div>
+    <br>
 
 
-    <div >
+    <div class="container-menu">
 
         <!--menu list-->
-        <div class="col-xs-12 col-sm-6">
-            <div class="menu-section">
-
+        <div id="container-edit-menu">
+            <div class="menu-section text-center center">
 
 
                 @forelse($menu as $item)
 
 
+                    <div class="menu-item ">
+                        <div class="menu-item-name"> {{$item->name}}</div>
 
-                    <form method="POST" action="modifica-menu/{{$item->id}}">
-                        @method('DELETE')
-                        @csrf
 
-                        <div class="menu-item">
-                            <div class="menu-item-name"> {{$item->name}}</div>
-                            <button type="submit" class="btn-danger rounded">Delete</button>
-                        </div>
-                        <hr>
+                        <form method="POST" action="modifica-menu/{{$item->id}}">
+                            @method('DELETE')
+                            @csrf
+                            <button type="submit" class="">Cancella</button>
+                        </form>
 
-                    </form>
+
+                    </div>
+                    <hr class="hr-full">
 
 
 
@@ -39,6 +42,7 @@
                 @endforelse
 
             </div>
+
         </div>
         <div class="clearfix"></div>
     </div>
