@@ -45,20 +45,41 @@ class DishController extends Controller
 
 
 
-    public function destroy($id){
+    public function destroy($id_item){
 
 
         $this->authorize('update',auth()->user());
 
-        Dish::where('id',$id)->delete();
+        try{
+            Dish::where('id',$id_item)->delete();
+        } catch(\Illuminate\Database\QueryException $ex){
+            dd($ex->getMessage());
+
+        }
 
 
-        return redirect('/modifica-menu')->with('success', 'Data updated');
-
+        return redirect('/modifica-menu')->with(['message'=>'Elemento eliminato correttamente']);
 
     }
 
-    public function update(){
+    public function update($id_item){
+
+        $dish = null;
+        $this->authorize('update',auth()->user());
+
+        try{
+          $dish =  Dish::where('id',$id_item)->get();
+        } catch(\Illuminate\Database\QueryException $ex){
+            dd($ex->getMessage());
+
+        }
+
+
+        return view('edit_dish',[
+            'dish'=> $dish
+            ]);
+
+
 
     }
 

@@ -330,6 +330,7 @@ header .intro-text {
     text-transform: uppercase;
 }
 
+
 #restaurant-menu .menu-section hr {
     margin: 0 auto;
 }
@@ -378,6 +379,9 @@ header .intro-text {
     color: #555;
     margin-top: -26px;
 }
+button{
+    margin: 6px;
+}
 
 /* Portfolio Section */
 #portfolio {
@@ -401,6 +405,14 @@ header .intro-text {
 
 ul.cat li {
     display: inline-block;
+}
+
+.conferma-messaggio{
+    text-align: center;
+    font-size: large;
+    font-family: cursive;
+    color: black;
+
 }
 
 ol.type li {

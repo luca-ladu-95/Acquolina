@@ -1,6 +1,9 @@
-@extends('home')
+@extends('app')
 
 @section('content')
+
+    @include('admin_nav')
+
     <br>
 
     <<div class="section-title text-center center">
@@ -10,7 +13,16 @@
     <br>
 
 
+
+
     <div class="container-menu">
+
+        <div class="conferma-messaggio">
+            @if(session('message'))
+                <div class="alert alert-success">Elemento eliminato correttamente</div>
+            @endif
+        </div>
+
 
         <!--menu list-->
         <div id="container-edit-menu">
@@ -27,15 +39,12 @@
                         <form method="POST" action="modifica-menu/{{$item->id}}">
                             @method('DELETE')
                             @csrf
-                            <button type="submit" class=" btn-danger">Cancella</button>
+                            <button Onclick="return ConfirmDelete()" type="submit" class=" btn-danger">Cancella</button>
                         </form>
 
-                        <form method="POST" action="">
+                        <form method="GET" action="modifica-menu/{{$item->id}}">
                             @csrf
-                            @method('PATCH')
-
                             <button type="submit" class="">Modifica</button>
-
                         </form>
 
                     </div>
@@ -54,4 +63,21 @@
         <div class="clearfix"></div>
     </div>
 
+
+    @include('script_nav')
+
+
+    <script>
+        function ConfirmDelete()
+        {
+            var x = confirm("Sei sicuro di voler eliminare questo elemento?");
+            if (x)
+                return true;
+            else
+                return false;
+        }
+    </script>
+
 @endsection
+
+
