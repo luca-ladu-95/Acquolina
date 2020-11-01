@@ -14,8 +14,9 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/modifica-menu" class="page-scroll">Modifica menu</a></li>
-                <li><a href="/new_item" class="page-scroll">Aggiungi piatto</a></li>
+                <li><a href="/nuovo_piatto" class="page-scroll">Aggiungi piatto</a></li>
                 <li><a href="/logout" class="page-scroll">Log Out</a></li>
+                <li><a href="/admin" class="page-scroll">Home</a></li>
 
 
             </ul>

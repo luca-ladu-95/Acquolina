@@ -25,6 +25,7 @@ class HomeController extends Controller
     public function index()
     {
         $this->authorize('update',auth()->user());
+
         $menu = Dish::all();
 
             return view('home',

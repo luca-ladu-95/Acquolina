@@ -42,6 +42,22 @@ class DishController extends Controller
     }
 
 
+    public function create(){
+
+        $this->authorize('update',auth()->user());
+
+        $attributes = $this->validator();
+
+        $dish = New Dish($attributes);
+
+        $dish->save();
+
+        return redirect(route('new_item'))->with(['message'=>'Elemento eliminato correttamente']);
+
+
+    }
+
+
 
     public function destroy(Dish $dish){
 

@@ -22,6 +22,11 @@ Route::middleware('auth')->group(function() {
     Route::delete('/modifica-menu/{dish}',[\App\Http\Controllers\DishController::class,'destroy'])->name('delete_dish');
     Route::get('/modifica-menu/{dish}',[\App\Http\Controllers\DishController::class,'update'])->name('edit_dish');
     Route::patch('/modifica-menu/{dish}',[\App\Http\Controllers\DishController::class,'store'])->name('store_dish');
+    Route::post('/nuovo_piatto',[\App\Http\Controllers\DishController::class,'create'])->name('store_new_item');
+
+    Route::get('/nuovo_piatto', function () {
+        return view('create_item');
+    })->name('new_item');
 
 });
 

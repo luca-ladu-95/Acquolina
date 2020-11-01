@@ -31,7 +31,7 @@
                                    data-toggle="tab"
                                    style="color:#A77489;">Dessert</a></li>
 
-        <li role="presentation"><a class="sld-btn-bor" href="#pizza" aria-controls="profile" role="tab"
+        <li role="presentation"><a class="sld-btn-bor" href="#pizze" aria-controls="profile" role="tab"
                                    data-toggle="tab"
                                    style="color:#A77489;">Pizze</a></li>
 
