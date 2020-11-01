@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [\App\Http\Controllers\DishController::class , 'index'])->name('homepage');
+Route::get('/logout', [\App\Http\Controllers\Auth\LoginController::class,'logout'])->name('logout');
 
 Route::middleware('auth')->group(function() {
     Route::get('/admin', [\App\Http\Controllers\HomeController::class, 'index'])->name('homeadmin');

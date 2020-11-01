@@ -27,9 +27,16 @@
                         <form method="POST" action="modifica-menu/{{$item->id}}">
                             @method('DELETE')
                             @csrf
-                            <button type="submit" class="">Cancella</button>
+                            <button type="submit" class=" btn-danger">Cancella</button>
                         </form>
 
+                        <form method="POST" action="">
+                            @csrf
+                            @method('PATCH')
+
+                            <button type="submit" class="">Modifica</button>
+
+                        </form>
 
                     </div>
                     <hr class="hr-full">

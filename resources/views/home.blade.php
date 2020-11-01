@@ -18,6 +18,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/modifica-menu" class="page-scroll">Modifica menu</a></li>
                 <li><a href="#portfolio" class="page-scroll">Modifica gallery</a></li>
+                <li><a href="/logout" class="page-scroll">Log Out</a></li>
 
 
             </ul>
@@ -37,7 +38,7 @@
                             <div class="about-img"><img src="img/logo.png" class="img-logo img" alt=""></div>
                         </div>
                         <p>Amministratore</p>
-                        <a href="#about" class="btn btn-custom btn-lg page-scroll">Log Out</a></div>
+                        <a href="/logout" class="btn btn-custom btn-lg page-scroll">Log Out</a></div>
                 </div>
             </div>
         </div>
@@ -57,5 +58,4 @@
 <script type="text/javascript" src="js/nivo-lightbox.js"></script>
 <script type="text/javascript" src="js/jquery.isotope.js"></script>
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-<script type="text/javascript" src="js/contact_me.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
