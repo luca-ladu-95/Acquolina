@@ -3,8 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\Dish;
-use App\Models\Enum;
-use Illuminate\Http\Request;
 
 class DishController extends Controller
 {
@@ -45,51 +43,35 @@ class DishController extends Controller
 
 
 
-    public function destroy($id_item){
-
+    public function destroy(Dish $dish){
 
         $this->authorize('update',auth()->user());
 
-        try{
-            Dish::where('id',$id_item)->delete();
-        } catch(\Illuminate\Database\QueryException $ex){
-            dd($ex->getMessage());
 
-        }
-
+        $dish->delete();
 
         return redirect('/modifica-menu')->with(['message'=>'Elemento eliminato correttamente']);
 
     }
 
-    public function update($id_item){
+    public function update(Dish $dish){
 
-        $dish = null;
         $this->authorize('update',auth()->user());
-
-        try{
-          $dish =  Dish::where('id',$id_item)->get();
-        } catch(\Illuminate\Database\QueryException $ex){
-            dd($ex->getMessage());
-
-        }
-
 
         return view('edit_dish',[
             'dish'=> $dish
             ]);
 
-
-
     }
 
 
-    public function store()
+    public function store(Dish $dish)
     {
+        $this->authorize('update',auth()->user());
+        $attributes=$this->validator();
+        $dish->update($attributes);
 
-        // Validate and store a new dish
-
-
+        return redirect(route('edit_dish', $dish));
     }
 
 
@@ -103,7 +85,7 @@ class DishController extends Controller
             'English_description' => ['required', 'string', 'min:5', 'max:600'],
             'German_description' => ['required', 'string', 'min:5', 'max:600'],
             'price' => ['integer', 'required', 'between:0,100'],
-            'type' => ['integer', 'required', 'between:0,8'],
+            'type' => ['integer', 'required', 'between:0,15'],
         ]);
 
 

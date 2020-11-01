@@ -36,13 +36,13 @@
                         <div class="menu-item-name"> {{$item->name}}</div>
 
 
-                        <form method="POST" action="modifica-menu/{{$item->id}}">
+                        <form method="POST" action="{{route('delete_dish', $item)}}">
                             @method('DELETE')
                             @csrf
                             <button Onclick="return ConfirmDelete()" type="submit" class=" btn-danger">Cancella</button>
                         </form>
 
-                        <form method="GET" action="modifica-menu/{{$item->id}}">
+                        <form method="GET" action="{{route('edit_dish', $item)}}">
                             @csrf
                             <button type="submit" class="">Modifica</button>
                         </form>

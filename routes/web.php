@@ -19,8 +19,10 @@ Route::get('/logout', [\App\Http\Controllers\Auth\LoginController::class,'logout
 Route::middleware('auth')->group(function() {
     Route::get('/admin', [\App\Http\Controllers\HomeController::class, 'index'])->name('homeadmin');
     Route::get('/modifica-menu',[\App\Http\Controllers\DishController::class,'show'])->name('edit_menu');
-    Route::delete('/modifica-menu/{dish}',[\App\Http\Controllers\DishController::class,'destroy']);
+    Route::delete('/modifica-menu/{dish}',[\App\Http\Controllers\DishController::class,'destroy'])->name('delete_dish');
     Route::get('/modifica-menu/{dish}',[\App\Http\Controllers\DishController::class,'update'])->name('edit_dish');
+    Route::patch('/modifica-menu/{dish}',[\App\Http\Controllers\DishController::class,'store'])->name('store_dish');
+
 });
 
 

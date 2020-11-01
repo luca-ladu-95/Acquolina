@@ -342,7 +342,7 @@
 
             </div>
         </div>
-        <br>
+
         <div class="col-xs-12 col-sm-6">
             <div class="menu-section">
                 <h2 class="menu-section-title">Birre</h2>
@@ -364,7 +364,7 @@
             </div>
         </div>
 
-        <br>
+
         <div class="col-xs-12 col-sm-6">
             <div class="menu-section">
                 <h2 class="menu-section-title">Caffetteria</h2>
@@ -385,7 +385,7 @@
 
             </div>
         </div>
-        <br>
+
         <div class="col-xs-12 col-sm-6">
             <div class="menu-section">
                 <h2 class="menu-section-title">Digestivi</h2>
